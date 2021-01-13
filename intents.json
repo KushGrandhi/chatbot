@@ -51,7 +51,7 @@
 },
     {"tag": "joke",
      "patterns": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny" ],
-     "responses": ["","A fire hydrant has H-2-O on the inside and K-9-P on the outside.","How do you make holy water? you boil the hell out of it", "Did you hear oxygen went on a date with potassium? A: It went OK."],
+     "responses": ["A fire hydrant has H-2-O on the inside and K-9-P on the outside.","How do you make holy water? you boil the hell out of it", "Did you hear oxygen went on a date with potassium? A: It went OK."],
  "context_set": ""
 },
 {"tag": "killing",
@@ -99,7 +99,7 @@
 "context_set": ""
 },
 {"tag": "fillers",
-    "patterns": ["ok", "fine", "cool","hahaha","thanx!"],
+    "patterns": ["ok", "fine", "cool","hahaha","thanx!", "no", "alright"],
     "responses": ["what else can i help you with?"]
 }
 ,
