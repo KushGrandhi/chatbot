@@ -99,7 +99,7 @@
 "context_set": ""
 },
 {"tag": "fillers",
-    "patterns": ["ok", "fine", "cool","hahaha","thanx!", "no", "alright"],
+    "patterns": ["ok", "fine", "cool","hahaha","thanx!", "no", "alright", "nothing"],
     "responses": ["what else can i help you with?"]
 }
 ,
