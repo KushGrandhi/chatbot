@@ -26,7 +26,7 @@
     },
     {"tag": "lenny",
      "patterns": ["Who are you?","introduction", "tell me about yourself", "tell me about you", "do you know Lenny", "who is Lenny", "what is your name","are you an AI", "what are you" ],
-     "responses": ["Hi I'm lenny and i'm an AI created for chatting with humans","Lenny here, a very advance chatbot", "Lenny, chatbot of future", "Yes, I'm Lenny", "You can call me Lenny"],
+     "responses": ["Hi I'm Lenny and i'm an AI bot.","Lenny here, a very sweet chatbot", "Lenny the chatbot", "Yes, I'm Lenny", "You can call me Lenny"],
  "context_set": ""
 },
 {"tag": "about me",
