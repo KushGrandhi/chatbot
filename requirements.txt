@@ -1,2 +1,8 @@
-nltk, flask, pickle, pandas, numpy, tensorflow, flask_cors
-
+nltk
+flask
+pickle
+pandas
+numpy
+tensorflow
+flask_cors
+gunicorn
