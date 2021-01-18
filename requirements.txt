@@ -5,3 +5,6 @@ numpy
 tensorflow
 flask_cors
 gunicorn
+wordnet
+pros_cons
+reuters
