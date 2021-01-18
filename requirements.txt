@@ -5,4 +5,4 @@ numpy
 tensorflow
 flask_cors
 gunicorn
-wordnet
+
