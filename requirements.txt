@@ -1,6 +1,5 @@
 nltk
 flask
-pickle
 pandas
 numpy
 tensorflow
