@@ -10,6 +10,8 @@ import pickle
 import pandas as pd
 import numpy as np
 import tensorflow as tf
+import requests 
+import time 
 
 model = tf.keras.models.load_model('chatbot.h5')
 
@@ -88,6 +90,30 @@ def classify_flask(sentence):
         response = "Can you rephrase and try?"
     return response
 
+def news():
+    url = 'https://newsapi.org/v2/top-headlines?country=in&apiKey=090129b20ca84810a0dfdce46f31d06e'
+    try: 
+        response = requests.get(url) 
+    except: 
+        print('error')
+    news = json.loads(response.text)
+    i=0
+    fnews = ''
+    for new in news['articles']: 
+        i+=1
+        fnews+="#####    News   ###### "+str(i) + ': ' 
+        fnews+= str(new['title']) 
+        
+        fnews+=' -> url:     '
+    
+        
+    
+        fnews+=str(new['url']) + "              "
+        if i>2:
+            break
+    return fnews
+     
+
 app = Flask(__name__)
 CORS(app)
 
@@ -102,6 +128,8 @@ def classify():
 def getmsg():
     userText = str(request.args.get('msg'))
     final = classify_flask(userText)
+    if final == 'Getting news ...':
+        final = news()
     return final
 
 if __name__ == "__main__":
