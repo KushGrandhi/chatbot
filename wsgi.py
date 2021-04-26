@@ -1,4 +1,4 @@
-from app.restapi import app
+from app.endpoint import app
 
 if __name__ == "__main__":
         app.run()
