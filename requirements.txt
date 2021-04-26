@@ -1,7 +1,5 @@
 nltk
 flask
-pandas
-numpy
 tensorflow
 flask_cors
 gunicorn
