@@ -119,7 +119,7 @@ CORS(app)
 
 @app.route("/")
 def home():
-    return 'Hello World! im Lenny'
+    return 'Hello World! im Lenny, Please go to /bot route for accessing the chatbot'
 
 @app.route("/bot", methods=['GET','POST'])
 def classify(): 
